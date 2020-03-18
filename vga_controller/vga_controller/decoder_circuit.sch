@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -13,10 +13,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 800  700  3500 2900
-U 5E7A10F5
-F0 "counter_circuit" 50
-F1 "counter_circuit.sch" 50
-$EndSheet
 $EndSCHEMATC
