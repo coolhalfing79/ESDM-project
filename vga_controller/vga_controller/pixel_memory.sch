@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
-Title ""
+Sheet 3 5
+Title "Pixel memory for VGA controller"
 Date ""
 Rev ""
-Comp ""
+Comp "Sahil Bhonsle"
 Comment1 ""
 Comment2 ""
 Comment3 ""

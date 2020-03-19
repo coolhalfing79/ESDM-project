@@ -3,8 +3,8 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
-Title ""
+Sheet 2 5
+Title "Decoder circuit for vga controller"
 Date ""
 Rev ""
 Comp ""

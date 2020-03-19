@@ -3,76 +3,26 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
-Title ""
+Sheet 5 5
+Title "counter circuit for VGA controller"
 Date ""
 Rev ""
-Comp ""
+Comp "Anirudha Chari"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 2250 4800
 Connection ~ 2250 2650
-Wire Wire Line
-	1300 4800 2250 4800
 Wire Wire Line
 	1300 2650 1300 4800
 Wire Wire Line
 	2250 2650 1300 2650
 Wire Wire Line
-	3400 1050 3750 1050
-Connection ~ 3400 1050
-Wire Wire Line
-	2250 3200 3750 3200
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 5E7F37F6
-P 3400 1050
-F 0 "#FLG02" H 3400 1125 50  0001 C CNN
-F 1 "PWR_FLAG" H 3400 1223 50  0000 C CNN
-F 2 "" H 3400 1050 50  0001 C CNN
-F 3 "~" H 3400 1050 50  0001 C CNN
-	1    3400 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 1050 3400 1050
-Connection ~ 3050 1050
-$Comp
-L power:VCC #PWR02
-U 1 1 5E7F37FE
-P 3050 1050
-F 0 "#PWR02" H 3050 900 50  0001 C CNN
-F 1 "VCC" H 3067 1223 50  0000 C CNN
-F 2 "" H 3050 1050 50  0001 C CNN
-F 3 "" H 3050 1050 50  0001 C CNN
-	1    3050 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	1600 3200 1600 4200
 Connection ~ 1600 3200
-Connection ~ 2250 3200
 Wire Wire Line
 	1600 2050 1600 3200
-Wire Wire Line
-	2250 3200 1600 3200
-Wire Wire Line
-	3400 4800 3750 4800
-Connection ~ 3400 4800
-$Comp
-L power:GNDPWR #PWR03
-U 1 1 5E7F3812
-P 3400 4800
-F 0 "#PWR03" H 3400 4600 50  0001 C CNN
-F 1 "GNDPWR" H 3404 4646 50  0000 C CNN
-F 2 "" H 3400 4750 50  0001 C CNN
-F 3 "" H 3400 4750 50  0001 C CNN
-	1    3400 4800
-	1    0    0    -1  
-$EndComp
 NoConn ~ 5800 3700
 NoConn ~ 5800 3800
 Wire Wire Line
@@ -115,7 +65,6 @@ Wire Wire Line
 	4800 4000 4800 4100
 Wire Wire Line
 	3250 4000 3250 4100
-Connection ~ 1750 4200
 Connection ~ 1750 4100
 Wire Wire Line
 	1750 4100 1750 4200
@@ -137,7 +86,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 1050 1600 1850
 Wire Wire Line
-	2250 1050 1600 1050
+	2250 1050 1650 1050
 NoConn ~ 4800 3800
 NoConn ~ 4800 3700
 NoConn ~ 4800 3600
@@ -165,63 +114,21 @@ Wire Wire Line
 Connection ~ 1750 2150
 Wire Wire Line
 	1750 2150 1450 2150
-Connection ~ 3250 4300
-Wire Wire Line
-	4800 4300 3250 4300
-Wire Wire Line
-	1750 4300 3250 4300
 Wire Wire Line
 	3250 2150 1750 2150
 Wire Wire Line
 	3750 3200 5300 3200
 Connection ~ 3750 3200
-Wire Wire Line
-	2250 1050 3050 1050
 Connection ~ 3750 4800
 Wire Wire Line
 	5300 4800 3750 4800
 Wire Wire Line
-	2250 4800 3400 4800
-Wire Wire Line
 	2250 2650 3750 2650
-$Comp
-L power:GNDPWR #PWR01
-U 1 1 5E7F388F
-P 1350 6600
-F 0 "#PWR01" H 1350 6400 50  0001 C CNN
-F 1 "GNDPWR" H 1354 6446 50  0000 C CNN
-F 2 "" H 1350 6550 50  0001 C CNN
-F 3 "" H 1350 6550 50  0001 C CNN
-	1    1350 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 5E7F3895
-P 1350 6000
-F 0 "#FLG01" H 1350 6075 50  0001 C CNN
-F 1 "PWR_FLAG" H 1350 6173 50  0000 C CNN
-F 2 "" H 1350 6000 50  0001 C CNN
-F 3 "~" H 1350 6000 50  0001 C CNN
-	1    1350 6000
-	1    0    0    -1  
-$EndComp
 $Comp
 L 74xx:74LS161 U5
 U 1 1 5E7F38A1
-P 5300 4000
-F 0 "U5" H 5300 4981 50  0000 C CNN
-F 1 "74LS161" H 5300 4890 50  0000 C CNN
-F 2 "" H 5300 4000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 5300 4000 50  0001 C CNN
-	1    5300 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS161 U4
-U 1 1 5E7F38A7
 P 3750 4000
-F 0 "U4" H 3750 4981 50  0000 C CNN
+F 0 "U5" H 3750 4981 50  0000 C CNN
 F 1 "74LS161" H 3750 4890 50  0000 C CNN
 F 2 "" H 3750 4000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 3750 4000 50  0001 C CNN
@@ -231,23 +138,23 @@ $EndComp
 $Comp
 L 74xx:74LS161 U2
 U 1 1 5E7F38B3
-P 2250 4000
-F 0 "U2" H 2250 4981 50  0000 C CNN
-F 1 "74LS161" H 2250 4890 50  0000 C CNN
-F 2 "" H 2250 4000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 2250 4000 50  0001 C CNN
-	1    2250 4000
+P 3750 1850
+F 0 "U2" H 3750 2831 50  0000 C CNN
+F 1 "74LS161" H 3750 2740 50  0000 C CNN
+F 2 "" H 3750 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 3750 1850 50  0001 C CNN
+	1    3750 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS161 U3
 U 1 1 5E7F38B9
-P 3750 1850
-F 0 "U3" H 3750 2831 50  0000 C CNN
-F 1 "74LS161" H 3750 2740 50  0000 C CNN
-F 2 "" H 3750 1850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 3750 1850 50  0001 C CNN
-	1    3750 1850
+P 5300 1850
+F 0 "U3" H 5300 2831 50  0000 C CNN
+F 1 "74LS161" H 5300 2740 50  0000 C CNN
+F 2 "" H 5300 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 5300 1850 50  0001 C CNN
+	1    5300 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -259,17 +166,6 @@ F 1 "74LS161" H 2250 2740 50  0000 C CNN
 F 2 "" H 2250 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 2250 1850 50  0001 C CNN
 	1    2250 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5E7F3809
-P 3750 4800
-F 0 "#PWR04" H 3750 4550 50  0001 C CNN
-F 1 "GND" H 3755 4627 50  0000 C CNN
-F 2 "" H 3750 4800 50  0001 C CNN
-F 3 "" H 3750 4800 50  0001 C CNN
-	1    3750 4800
 	1    0    0    -1  
 $EndComp
 Connection ~ 3750 2650
@@ -303,12 +199,12 @@ Connection ~ 4800 1950
 $Comp
 L 74xx:74LS161 U6
 U 1 1 5E7F38AD
-P 5300 1850
-F 0 "U6" H 5300 2831 50  0000 C CNN
-F 1 "74LS161" H 5300 2740 50  0000 C CNN
-F 2 "" H 5300 1850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 5300 1850 50  0001 C CNN
-	1    5300 1850
+P 5300 4000
+F 0 "U6" H 5300 4981 50  0000 C CNN
+F 1 "74LS161" H 5300 4890 50  0000 C CNN
+F 2 "" H 5300 4000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 5300 4000 50  0001 C CNN
+	1    5300 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -322,71 +218,131 @@ F 3 "http://www.conwin.com/datasheets/cx/cx030.pdf" H 1250 6300 50  0001 C CNN
 	1    1350 6300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 2350 0    50   Input ~ 0
+Text GLabel 1750 4500 0    50   Input ~ 0
+y-reset
+Text GLabel 1750 4300 0    50   Input ~ 0
+x-reset
+Text HLabel 5800 3600 2    50   Input ~ 0
+y9
+Text HLabel 5800 3500 2    50   Input ~ 0
+y8
+Text HLabel 4250 3800 2    50   Input ~ 0
+y7
+Text HLabel 4250 3700 2    50   Input ~ 0
+y6
+Text HLabel 4250 3600 2    50   Input ~ 0
+y5
+Text HLabel 4250 3500 2    50   Input ~ 0
+y4
+Text HLabel 2750 3800 2    50   Input ~ 0
+y3
+Text HLabel 2750 3700 2    50   Input ~ 0
+y2
+Text HLabel 2750 3600 2    50   Input ~ 0
+y1
+Text HLabel 2750 3500 2    50   Input ~ 0
+y0
+Text HLabel 5800 1350 2    50   Input ~ 0
+x8
+Text HLabel 4250 1650 2    50   Input ~ 0
+x7
+Text HLabel 4250 1550 2    50   Input ~ 0
+x6
+Text HLabel 4250 1450 2    50   Input ~ 0
+x5
+Text HLabel 4250 1350 2    50   Input ~ 0
+x4
+Text HLabel 2750 1650 2    50   Input ~ 0
+x3
+Text HLabel 2750 1550 2    50   Input ~ 0
+x2
+Text HLabel 2750 1450 2    50   Input ~ 0
+x1
+Text HLabel 2750 1350 2    50   Input ~ 0
+x0
+Text GLabel 1750 2350 0    50   Input ~ 0
+x-reset
+Wire Wire Line
+	2250 1050 3750 1050
+Text GLabel 3250 4500 0    50   Input ~ 0
+y-reset
+Text GLabel 4800 4500 0    50   Input ~ 0
+y-reset
+Text GLabel 3250 4300 0    50   Input ~ 0
+x-reset
+Text GLabel 4800 4300 0    50   Input ~ 0
 x-reset
 Text GLabel 3250 2350 0    50   Input ~ 0
 x-reset
-Text GLabel 1750 2350 0    50   Input ~ 0
+Text GLabel 4800 2350 0    50   Input ~ 0
 x-reset
-Text GLabel 4800 4500 0    50   Input ~ 0
-y-reset
-Text GLabel 3250 4500 0    50   Input ~ 0
-y-reset
-Text GLabel 1750 4500 0    50   Input ~ 0
-y-reset
-Text HLabel 2750 1350 2    50   Input ~ 0
-x0
-Text HLabel 2750 1450 2    50   Input ~ 0
-x1
-Text HLabel 2750 1550 2    50   Input ~ 0
-x2
-Text HLabel 2750 1650 2    50   Input ~ 0
-x3
-Text HLabel 4250 1350 2    50   Input ~ 0
-x4
-Text HLabel 4250 1450 2    50   Input ~ 0
-x5
-Text HLabel 4250 1550 2    50   Input ~ 0
-x6
-Text HLabel 4250 1650 2    50   Input ~ 0
-x7
-Text HLabel 5800 1350 2    50   Input ~ 0
-x8
-Text HLabel 2750 3500 2    50   Input ~ 0
-y0
-Text HLabel 2750 3600 2    50   Input ~ 0
-y1
-Text HLabel 2750 3700 2    50   Input ~ 0
-y2
-Text HLabel 2750 3800 2    50   Input ~ 0
-y3
-Text HLabel 4250 3500 2    50   Input ~ 0
-y4
-Text HLabel 4250 3600 2    50   Input ~ 0
-y5
-Text HLabel 4250 3700 2    50   Input ~ 0
-y6
-Text HLabel 4250 3800 2    50   Input ~ 0
-y7
-Text HLabel 5800 3500 2    50   Input ~ 0
-y8
-Text HLabel 5800 3600 2    50   Input ~ 0
-y9
-Text GLabel 1750 4300 0    50   Input ~ 0
-x-reset
-Text HLabel 1750 2350 3    50   Input ~ 0
-x-reset
-Text HLabel 1750 4500 3    50   Input ~ 0
-y-reset
+Wire Wire Line
+	2250 4800 3750 4800
+Wire Wire Line
+	1300 4800 2250 4800
+Connection ~ 2250 4800
+Wire Wire Line
+	2250 3200 1600 3200
+Wire Wire Line
+	2250 3200 3750 3200
+Connection ~ 2250 3200
+Connection ~ 1750 4200
 $Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5E7407BD
-P 2250 4800
-F 0 "#FLG0101" H 2250 4875 50  0001 C CNN
-F 1 "PWR_FLAG" H 2250 4973 50  0000 C CNN
-F 2 "" H 2250 4800 50  0001 C CNN
-F 3 "~" H 2250 4800 50  0001 C CNN
-	1    2250 4800
-	-1   0    0    1   
+L 74xx:74LS161 U4
+U 1 1 5E7F38A7
+P 2250 4000
+F 0 "U4" H 2250 4981 50  0000 C CNN
+F 1 "74LS161" H 2250 4890 50  0000 C CNN
+F 2 "" H 2250 4000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 2250 4000 50  0001 C CNN
+	1    2250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5E7720A1
+P 1650 1050
+F 0 "#PWR0101" H 1650 900 50  0001 C CNN
+F 1 "+5V" H 1665 1223 50  0000 C CNN
+F 2 "" H 1650 1050 50  0001 C CNN
+F 3 "" H 1650 1050 50  0001 C CNN
+	1    1650 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 1050
+Wire Wire Line
+	1650 1050 1600 1050
+$Comp
+L power:GND #PWR0103
+U 1 1 5E7722F4
+P 3750 4800
+F 0 "#PWR0103" H 3750 4550 50  0001 C CNN
+F 1 "GND" H 3755 4627 50  0000 C CNN
+F 2 "" H 3750 4800 50  0001 C CNN
+F 3 "" H 3750 4800 50  0001 C CNN
+	1    3750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E7724F2
+P 1350 6600
+F 0 "#PWR0104" H 1350 6350 50  0001 C CNN
+F 1 "GND" H 1355 6427 50  0000 C CNN
+F 2 "" H 1350 6600 50  0001 C CNN
+F 3 "" H 1350 6600 50  0001 C CNN
+	1    1350 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5E772B4E
+P 1350 6000
+F 0 "#PWR0102" H 1350 5850 50  0001 C CNN
+F 1 "+5V" H 1365 6173 50  0000 C CNN
+F 2 "" H 1350 6000 50  0001 C CNN
+F 3 "" H 1350 6000 50  0001 C CNN
+	1    1350 6000
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
