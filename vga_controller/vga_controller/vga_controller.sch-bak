@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -24,12 +24,6 @@ S 800  4000 3500 2900
 U 5E7FCF50
 F0 "pixel_memory" 50
 F1 "pixel_memory.sch" 50
-$EndSheet
-$Sheet
-S 4650 4000 3450 2900
-U 5E7FD01A
-F0 "vga_interface" 50
-F1 "vga_interface.sch" 50
 $EndSheet
 $Sheet
 S 800  700  3500 2900
