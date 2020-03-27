@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:vga_controller-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -335,8 +334,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 1200 5500 1200
 Wire Wire Line
-	6700 2400 7000 2400
-Wire Wire Line
 	3950 1300 5250 1300
 Wire Wire Line
 	5250 1300 5250 2300
@@ -356,14 +353,6 @@ NoConn ~ 3950 1600
 NoConn ~ 3950 1700
 NoConn ~ 3950 1800
 NoConn ~ 3950 1900
-Wire Wire Line
-	6700 1750 7000 1750
-Text HLabel 7000 2400 2    50   Input ~ 0
-H_SYNC
-Text HLabel 7000 1750 2    50   Input ~ 0
-H_BLANK
-Connection ~ 6700 1750
-Connection ~ 6700 2400
 NoConn ~ 3950 4350
 NoConn ~ 3950 4450
 NoConn ~ 3950 4550
@@ -375,7 +364,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 3950 5850 3950
 Wire Wire Line
-	3950 5050 5300 5050
+	3950 5050 4150 5050
 Wire Wire Line
 	5300 5050 5300 4950
 Wire Wire Line
@@ -398,10 +387,6 @@ Connection ~ 6750 4850
 Wire Wire Line
 	6750 5500 7000 5500
 Connection ~ 6750 5500
-Text HLabel 7000 4850 2    50   Input ~ 0
-V_BLANK
-Text HLabel 7000 5500 2    50   Input ~ 0
-V_SYNC
 $Comp
 L power:+5V #PWR05
 U 1 1 5E85F669
@@ -466,4 +451,30 @@ Wire Wire Line
 NoConn ~ 2550 2700
 NoConn ~ 2550 2800
 NoConn ~ 2550 5950
+Connection ~ 6700 2400
+Wire Wire Line
+	6700 2400 7000 2400
+Text HLabel 7000 2400 2    50   Output ~ 0
+H_SYNC
+Text HLabel 7000 4850 2    50   Output ~ 0
+V_BLANK
+Text HLabel 7000 5500 2    50   Output ~ 0
+V_SYNC
+Connection ~ 6700 1750
+Text HLabel 7000 1750 2    50   Output ~ 0
+H_BLANK
+Wire Wire Line
+	6700 1750 7000 1750
+Text GLabel 4150 1700 3    50   Output ~ 0
+x-reset
+Wire Wire Line
+	4150 1700 4150 1500
+Connection ~ 4150 1500
+Text GLabel 4150 5250 3    50   Output ~ 0
+y-reset
+Wire Wire Line
+	4150 5050 4150 5250
+Connection ~ 4150 5050
+Wire Wire Line
+	4150 5050 5300 5050
 $EndSCHEMATC
