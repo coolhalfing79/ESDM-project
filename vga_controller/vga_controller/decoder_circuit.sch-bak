@@ -364,7 +364,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 3950 5850 3950
 Wire Wire Line
-	3950 5050 5300 5050
+	3950 5050 4150 5050
 Wire Wire Line
 	5300 5050 5300 4950
 Wire Wire Line
@@ -465,4 +465,16 @@ Text HLabel 7000 1750 2    50   Output ~ 0
 H_BLANK
 Wire Wire Line
 	6700 1750 7000 1750
+Text GLabel 4150 1700 3    50   Output ~ 0
+x-reset
+Wire Wire Line
+	4150 1700 4150 1500
+Connection ~ 4150 1500
+Text GLabel 4150 5250 3    50   Output ~ 0
+y-reset
+Wire Wire Line
+	4150 5050 4150 5250
+Connection ~ 4150 5050
+Wire Wire Line
+	4150 5050 5300 5050
 $EndSCHEMATC
