@@ -89,7 +89,7 @@ AR Path="/5E7F393B" Ref="U?"  Part="1"
 AR Path="/5E7FCF50/5E7F393B" Ref="U12"  Part="1" 
 F 0 "U12" H 3750 2433 50  0000 C CNN
 F 1 "7400" H 3750 2750 50  0000 C CNN
-F 2 "" H 3750 2750 50  0001 C CNN
+F 2 "CD4011BE:DIP254P762X508-14" H 3750 2750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 3750 2750 50  0001 C CNN
 	1    3750 2750
 	-1   0    0    1   
@@ -328,21 +328,21 @@ x6
 Text HLabel 2350 2350 0    50   Input ~ 0
 x7
 Text HLabel 3250 2450 2    50   Input ~ 0
-x8
-Text HLabel 3250 2550 2    50   Input ~ 0
 y2
-Text HLabel 3250 2850 2    50   Input ~ 0
+Text HLabel 3250 2550 2    50   Input ~ 0
 y3
-Text HLabel 3250 2650 2    50   Input ~ 0
+Text HLabel 3250 2850 2    50   Input ~ 0
 y4
-Text HLabel 2350 2250 0    50   Input ~ 0
+Text HLabel 3250 2650 2    50   Input ~ 0
 y5
-Text HLabel 3250 2350 2    50   Input ~ 0
+Text HLabel 2350 2250 0    50   Input ~ 0
 y6
-Text HLabel 3250 2250 2    50   Input ~ 0
+Text HLabel 3250 2350 2    50   Input ~ 0
 y7
-Text HLabel 2350 2150 0    50   Input ~ 0
+Text HLabel 3250 2250 2    50   Input ~ 0
 y8
+Text HLabel 2350 2150 0    50   Input ~ 0
+y9
 Text GLabel 4600 3250 2    50   Output ~ 0
 red
 Text GLabel 4600 3550 2    50   Output ~ 0
