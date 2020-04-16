@@ -133,7 +133,7 @@ F 1 "74LS161" H 3750 4890 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 3750 4000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 3750 4000 50  0001 C CNN
 	1    3750 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 74xx:74LS161 U7
@@ -144,7 +144,7 @@ F 1 "74LS161" H 3750 2740 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 3750 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 3750 1850 50  0001 C CNN
 	1    3750 1850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 74xx:74LS161 U9
@@ -155,7 +155,7 @@ F 1 "74LS161" H 5300 2740 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 5300 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 5300 1850 50  0001 C CNN
 	1    5300 1850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 74xx:74LS161 U5
@@ -166,7 +166,7 @@ F 1 "74LS161" H 2250 2740 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 2250 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 2250 1850 50  0001 C CNN
 	1    2250 1850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 3750 2650
 Wire Wire Line
@@ -205,7 +205,7 @@ F 1 "74LS161" H 5300 4890 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 5300 4000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 5300 4000 50  0001 C CNN
 	1    5300 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Oscillator:ACO-xxxMHz X1
@@ -216,7 +216,7 @@ F 1 "ACO-xxxMHz" H 1007 6255 50  0000 R CNN
 F 2 "Oscillator:Oscillator_DIP-14" H 1800 5950 50  0001 C CNN
 F 3 "http://www.conwin.com/datasheets/cx/cx030.pdf" H 1250 6300 50  0001 C CNN
 	1    1350 6300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 1750 4500 0    50   Input ~ 0
 y-reset
@@ -296,7 +296,7 @@ F 1 "74LS161" H 2250 4890 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 2250 4000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 2250 4000 50  0001 C CNN
 	1    2250 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+5V #PWR012
@@ -307,7 +307,7 @@ F 1 "+5V" H 1665 1223 50  0000 C CNN
 F 2 "" H 1650 1050 50  0001 C CNN
 F 3 "" H 1650 1050 50  0001 C CNN
 	1    1650 1050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 1650 1050
 Wire Wire Line
@@ -321,7 +321,7 @@ F 1 "GND" H 3755 4627 50  0000 C CNN
 F 2 "" H 3750 4800 50  0001 C CNN
 F 3 "" H 3750 4800 50  0001 C CNN
 	1    3750 4800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR011
@@ -332,7 +332,7 @@ F 1 "GND" H 1355 6427 50  0000 C CNN
 F 2 "" H 1350 6600 50  0001 C CNN
 F 3 "" H 1350 6600 50  0001 C CNN
 	1    1350 6600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+5V #PWR010
@@ -343,6 +343,6 @@ F 1 "+5V" H 1365 6173 50  0000 C CNN
 F 2 "" H 1350 6000 50  0001 C CNN
 F 3 "" H 1350 6000 50  0001 C CNN
 	1    1350 6000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $EndSCHEMATC
