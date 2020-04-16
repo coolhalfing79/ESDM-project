@@ -19,10 +19,10 @@ U 1 1 5E7935D6
 P 10350 2350
 F 0 "J1" H 10350 3217 50  0000 C CNN
 F 1 "DB15_Female_HighDensity" H 10350 3126 50  0000 C CNN
-F 2 "" H 9400 2750 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-15_Female_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm" H 9400 2750 50  0001 C CNN
 F 3 " ~" H 9400 2750 50  0001 C CNN
 	1    10350 2350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 10050 2450
 NoConn ~ 10050 2550
@@ -59,7 +59,7 @@ F 1 "GND" H 9955 2577 50  0000 C CNN
 F 2 "" H 9950 2750 50  0001 C CNN
 F 3 "" H 9950 2750 50  0001 C CNN
 	1    9950 2750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 9950 2750
 Wire Wire Line
@@ -72,105 +72,105 @@ $Comp
 L vga_controller-rescue:CAT28C513-D-parallel_eeprom U?
 U 1 1 5E7F3935
 P 2800 2650
-AR Path="/5E7F3935" Ref="U?"  Part="1" 
-AR Path="/5E7FCF50/5E7F3935" Ref="U11"  Part="1" 
+AR Path="/5E7F3935" Ref="U?"  Part="1"
+AR Path="/5E7FCF50/5E7F3935" Ref="U11"  Part="1"
 F 0 "U11" H 2800 3615 50  0000 C CNN
 F 1 "CAT28C513-D" H 2800 3524 50  0000 C CNN
 F 2 "Package_DIP:DIP-32_W7.62mm" H 2850 2650 50  0001 C CNN
 F 3 "" H 2850 2650 50  0001 C CNN
 	1    2800 2650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 74xx:7400 U?
 U 1 1 5E7F393B
 P 3750 2750
-AR Path="/5E7F393B" Ref="U?"  Part="1" 
-AR Path="/5E7FCF50/5E7F393B" Ref="U12"  Part="1" 
+AR Path="/5E7F393B" Ref="U?"  Part="1"
+AR Path="/5E7FCF50/5E7F393B" Ref="U12"  Part="1"
 F 0 "U12" H 3750 2433 50  0000 C CNN
 F 1 "7400" H 3750 2750 50  0000 C CNN
-F 2 "" H 3750 2750 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3750 2750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 3750 2750 50  0001 C CNN
 	1    3750 2750
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E7F3941
 P 3800 3100
-AR Path="/5E7F3941" Ref="R?"  Part="1" 
-AR Path="/5E7FCF50/5E7F3941" Ref="R1"  Part="1" 
+AR Path="/5E7F3941" Ref="R?"  Part="1"
+AR Path="/5E7FCF50/5E7F3941" Ref="R1"  Part="1"
 F 0 "R1" V 3750 3250 50  0000 C CNN
 F 1 "680Ω" V 3800 3100 50  0000 C CNN
 F 2 "" V 3730 3100 50  0001 C CNN
 F 3 "~" H 3800 3100 50  0001 C CNN
 	1    3800 3100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E7F3947
 P 3800 3250
-AR Path="/5E7F3947" Ref="R?"  Part="1" 
-AR Path="/5E7FCF50/5E7F3947" Ref="R2"  Part="1" 
+AR Path="/5E7F3947" Ref="R?"  Part="1"
+AR Path="/5E7FCF50/5E7F3947" Ref="R2"  Part="1"
 F 0 "R2" V 3750 3400 50  0000 C CNN
 F 1 "1.5KΩ" V 3800 3250 50  0000 C CNN
 F 2 "" V 3730 3250 50  0001 C CNN
 F 3 "~" H 3800 3250 50  0001 C CNN
 	1    3800 3250
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E7F394D
 P 3800 3400
-AR Path="/5E7F394D" Ref="R?"  Part="1" 
-AR Path="/5E7FCF50/5E7F394D" Ref="R3"  Part="1" 
+AR Path="/5E7F394D" Ref="R?"  Part="1"
+AR Path="/5E7FCF50/5E7F394D" Ref="R3"  Part="1"
 F 0 "R3" V 3750 3550 50  0000 C CNN
 F 1 "680Ω" V 3800 3400 50  0000 C CNN
 F 2 "" V 3730 3400 50  0001 C CNN
 F 3 "~" H 3800 3400 50  0001 C CNN
 	1    3800 3400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E7F3953
 P 3800 3550
-AR Path="/5E7F3953" Ref="R?"  Part="1" 
-AR Path="/5E7FCF50/5E7F3953" Ref="R4"  Part="1" 
+AR Path="/5E7F3953" Ref="R?"  Part="1"
+AR Path="/5E7FCF50/5E7F3953" Ref="R4"  Part="1"
 F 0 "R4" V 3750 3700 50  0000 C CNN
 F 1 "1.5KΩ" V 3800 3550 50  0000 C CNN
 F 2 "" V 3730 3550 50  0001 C CNN
 F 3 "~" H 3800 3550 50  0001 C CNN
 	1    3800 3550
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E7F3959
 P 3800 3700
-AR Path="/5E7F3959" Ref="R?"  Part="1" 
-AR Path="/5E7FCF50/5E7F3959" Ref="R5"  Part="1" 
+AR Path="/5E7F3959" Ref="R?"  Part="1"
+AR Path="/5E7FCF50/5E7F3959" Ref="R5"  Part="1"
 F 0 "R5" V 3750 3850 50  0000 C CNN
 F 1 "680Ω" V 3800 3700 50  0000 C CNN
 F 2 "" V 3730 3700 50  0001 C CNN
 F 3 "~" H 3800 3700 50  0001 C CNN
 	1    3800 3700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E7F395F
 P 3800 3850
-AR Path="/5E7F395F" Ref="R?"  Part="1" 
-AR Path="/5E7FCF50/5E7F395F" Ref="R6"  Part="1" 
+AR Path="/5E7F395F" Ref="R?"  Part="1"
+AR Path="/5E7FCF50/5E7F395F" Ref="R6"  Part="1"
 F 0 "R6" V 3750 4000 50  0000 C CNN
 F 1 "1.5KΩ" V 3800 3850 50  0000 C CNN
 F 2 "" V 3730 3850 50  0001 C CNN
 F 3 "~" H 3800 3850 50  0001 C CNN
 	1    3800 3850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	3250 2750 3450 2750
@@ -276,40 +276,40 @@ $Comp
 L power:GND #PWR?
 U 1 1 5E7F399D
 P 2300 3550
-AR Path="/5E7F399D" Ref="#PWR?"  Part="1" 
-AR Path="/5E7FCF50/5E7F399D" Ref="#PWR0101"  Part="1" 
+AR Path="/5E7F399D" Ref="#PWR?"  Part="1"
+AR Path="/5E7FCF50/5E7F399D" Ref="#PWR0101"  Part="1"
 F 0 "#PWR0101" H 2300 3300 50  0001 C CNN
 F 1 "GND" H 2305 3377 50  0000 C CNN
 F 2 "" H 2300 3550 50  0001 C CNN
 F 3 "" H 2300 3550 50  0001 C CNN
 	1    2300 3550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E7F39A3
 P 3450 2950
-AR Path="/5E7F39A3" Ref="#PWR?"  Part="1" 
-AR Path="/5E7FCF50/5E7F39A3" Ref="#PWR0102"  Part="1" 
+AR Path="/5E7F39A3" Ref="#PWR?"  Part="1"
+AR Path="/5E7FCF50/5E7F39A3" Ref="#PWR0102"  Part="1"
 F 0 "#PWR0102" H 3450 2700 50  0001 C CNN
 F 1 "GND" H 3550 2950 50  0000 C CNN
 F 2 "" H 3450 2950 50  0001 C CNN
 F 3 "" H 3450 2950 50  0001 C CNN
 	1    3450 2950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5E7F39A9
 P 3350 1850
-AR Path="/5E7F39A9" Ref="#PWR?"  Part="1" 
-AR Path="/5E7FCF50/5E7F39A9" Ref="#PWR0103"  Part="1" 
+AR Path="/5E7F39A9" Ref="#PWR?"  Part="1"
+AR Path="/5E7FCF50/5E7F39A9" Ref="#PWR0103"  Part="1"
 F 0 "#PWR0103" H 3350 1700 50  0001 C CNN
 F 1 "+5V" H 3365 2023 50  0000 C CNN
 F 2 "" H 3350 1850 50  0001 C CNN
 F 3 "" H 3350 1850 50  0001 C CNN
 	1    3350 1850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text HLabel 2350 3050 0    50   Input ~ 0
 x0
